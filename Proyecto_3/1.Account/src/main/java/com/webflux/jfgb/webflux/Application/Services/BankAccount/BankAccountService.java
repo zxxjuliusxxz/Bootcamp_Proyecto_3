@@ -72,7 +72,7 @@ public class BankAccountService implements IBankAccountService {
 
     @Override
     public Mono<CustomerDTO> findByIdCustomer(Long ruc_dni){
-        Mono<CustomerDTO> customerById = this.webClient.get().uri("/api/v1/customer/{id}",
+        Mono<CustomerDTO> customerById = this.webClient.get().uri("/api/v1/customer/getById/{id}",
                 ruc_dni).retrieve().onStatus(
                 HttpStatus::isError, res -> res.bodyToMono(UserNotFoundException.class)
                         .onErrorResume(e -> Mono.error(new CustomBadRequestException("ERROR ...")))

@@ -30,12 +30,6 @@ public class CustomerController {
         return ResponseEntity.ok(customerService.list());
     }
 
-    @PostMapping(value = "/insert")
-    public Mono<ResponseEntity<Customer>> addCustomer(@RequestBody Customer bankAccount) {
-        return customerService.register(bankAccount)
-                .map(c -> ResponseEntity.status(HttpStatus.CREATED).body(c));
-    }
-
     @GetMapping(value = "/getById/{id}")
     public Mono<ResponseEntity<Customer>> getByIdCustomer(@PathVariable Long id) {
         return customerService.findById(id)
@@ -43,17 +37,23 @@ public class CustomerController {
                 .defaultIfEmpty(ResponseEntity.notFound().build());
     }
 
+    @PostMapping(value = "/insert")
+    public Mono<ResponseEntity<Customer>> addCustomer(@RequestBody Customer customer) {
+        return customerService.register(customer)
+                .map(c -> ResponseEntity.status(HttpStatus.CREATED).body(c));
+    }
+
     @PutMapping(value = "/update/{id}")
-    public Mono<ResponseEntity<Customer>> updateCustomer(@PathVariable Long id, @RequestBody Customer bankAccount) {
-        return customerService.updater(id, bankAccount)
-                .map(mapper -> ResponseEntity.ok(mapper))
+    public Mono<ResponseEntity<Customer>> updateCustomer(@PathVariable Long id, @RequestBody Customer customer) {
+        return customerService.updater(id, customer)
+                .map(c -> ResponseEntity.status(HttpStatus.CREATED).body(c))
                 .defaultIfEmpty(ResponseEntity.notFound().build());
     }
 
     @DeleteMapping(value = "/delete/{id}")
     public Mono<ResponseEntity<Void>> deleteByIdCustomer(@PathVariable Long id) {
         return customerService.delete(id)
-                .map(mapper -> ResponseEntity.ok(mapper))
+                .map(accountBank -> ResponseEntity.ok(accountBank))
                 .defaultIfEmpty(ResponseEntity.notFound().build());
     }
 }

@@ -1,6 +1,7 @@
 package com.nttdata.pe.Customer.Domain;
 
 import com.nttdata.pe.Customer.Application.Models.DTO.TypeDTO;
+import com.nttdata.pe.Customer.Application.Models.Enum.CustomerTypesEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
