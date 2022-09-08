@@ -86,27 +86,6 @@ public class BankAccountController {
                 .defaultIfEmpty(ResponseEntity.notFound().build());
     }
 
-    /*public boolean validatorCustomer(Long ruc_dni){
-        System.out.println("ruc_dni:: " + ruc_dni);
-        Mono<CustomerDTO> cust =  accountService.findByIdCustomer(ruc_dni);
-        Mono<ResponseEntity<CustomerDTO>> custRE = cust.map(c -> ResponseEntity.status(HttpStatus.CREATED).body(c));
-
-        custRE.flatMap(x->{
-            System.out.println("x:: " + x);
-            System.out.println("x.getStatusCodeValue():: " + x.getStatusCodeValue());
-            if(x.getStatusCode() == HttpStatus.NOT_FOUND){
-                System.out.println("HttpStatus.NOT_FOUND::::: " + x);
-            }
-
-            return Mono.justOrEmpty(x);
-        });
-
-        return false;
-
-    }
-
-     */
-
     public Mono<ResponseEntity<String>> fallBackGetCustomerById(Long id, RuntimeException runtimeException) {
         String msj = "El Microservicio Customer no esta respondiendo";
         Mono<String> msjMono = Mono.just(msj);
