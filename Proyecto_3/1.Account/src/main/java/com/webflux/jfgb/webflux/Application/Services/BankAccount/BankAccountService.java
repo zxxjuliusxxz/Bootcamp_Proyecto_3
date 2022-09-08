@@ -1,8 +1,6 @@
 package com.webflux.jfgb.webflux.Application.Services.BankAccount;
 
 import com.webflux.jfgb.webflux.Application.Models.DTO.CustomerDTO;
-import com.webflux.jfgb.webflux.Application.Models.DTO.HeadLineDTO;
-import com.webflux.jfgb.webflux.Application.Models.DTO.SignatoriesDTO;
 import com.webflux.jfgb.webflux.Application.Models.Enum.CustomerTypesEnum;
 import com.webflux.jfgb.webflux.Application.Models.Exception.CustomBadRequestException;
 import com.webflux.jfgb.webflux.Application.Models.Exception.UserNotFoundException;
@@ -17,9 +15,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.function.Function;
 @Service
 @Log4j2
