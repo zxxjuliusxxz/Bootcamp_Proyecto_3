@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/1.Account/pom.xml" />
+        <option value="$PROJECT_DIR$/1.Account/pom.xml.bak" />
+        <option value="$PROJECT_DIR$/2.Credits/pom.xml" />
+        <option value="$PROJECT_DIR$/2.Credits/pom.xml.bak" />
+        <option value="$PROJECT_DIR$/3.Customer/pom.xml" />
+        <option value="$PROJECT_DIR$/5.configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/4.Eureka-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/6.prjApiGateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

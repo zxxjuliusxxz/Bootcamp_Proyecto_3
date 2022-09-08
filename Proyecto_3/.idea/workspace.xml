@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eef99955-5c67-4935-a31f-4d2f118c6b30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/configserver/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/configserver/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/configserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/configserver/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/configserver/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/configserver/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/configserver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/configserver/src/main/java/com/nttdata/configserver/ConfigserverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/configserver/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/configserver/src/test/java/com/nttdata/configserver/ConfigserverApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/prjApiGateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/prjApiGateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/prjApiGateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/prjApiGateway/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/prjApiGateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/prjApiGateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/prjApiGateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/prjApiGateway/src/main/java/pe/com/nttdata/PrjApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/prjApiGateway/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoV4.0/prjApiGateway/src/test/java/pe/com/nttdata/PrjApiGatewayApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2ESj3M7l7AK6BYV1LQQGve47TQf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1.Account" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eef99955-5c67-4935-a31f-4d2f118c6b30" name="Default Changelist" comment="" />
+      <created>1662595683528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662595683528</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

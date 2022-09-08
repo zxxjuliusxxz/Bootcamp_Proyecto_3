@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1.Account/Account.iml" filepath="$PROJECT_DIR$/1.Account/Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.Credits/Credits.iml" filepath="$PROJECT_DIR$/2.Credits/Credits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.Customer/Customer.iml" filepath="$PROJECT_DIR$/3.Customer/Customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.Eureka-Server/Eureka-Server.iml" filepath="$PROJECT_DIR$/4.Eureka-Server/Eureka-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProyectoV5.0.iml" filepath="$PROJECT_DIR$/.idea/ProyectoV5.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.configserver/configserver.iml" filepath="$PROJECT_DIR$/5.configserver/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6.prjApiGateway/prjApiGateway.iml" filepath="$PROJECT_DIR$/6.prjApiGateway/prjApiGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.Account/spring-webflux-essentials.iml" filepath="$PROJECT_DIR$/1.Account/spring-webflux-essentials.iml" />
+    </modules>
+  </component>
+</project>
