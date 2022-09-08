@@ -15,7 +15,7 @@ class AccountApplicationTests {
     void listarAccount() {
         this.webTestClient
                 .get()
-                .uri("/afiliado")
+                .uri("/api/v1/bankAccount")
                 .exchange()
                 .expectStatus()
                 .is2xxSuccessful()
