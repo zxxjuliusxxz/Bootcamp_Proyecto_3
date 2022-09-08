@@ -20,7 +20,7 @@ public class BankAccount {
     @Indexed(unique = true)
     private String number; // Número de cuenta.
     private Double limitAccount; // Saldo límite o máximo.
-    private String customerId; // Código del Cliente (RUC_DNI).
+    private Long customerId; // Código del Cliente (RUC_DNI).
     private CustomerTypesEnum customerType;
     private List<HeadLineDTO> headLineList; // TITULARES.
     private List<SignatoriesDTO> signatories; // FIRMANTES AUTORIZADOS.

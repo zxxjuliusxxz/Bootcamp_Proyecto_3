@@ -1,13 +1,27 @@
 package com.webflux.jfgb.webflux;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.MediaType;
+import org.springframework.test.web.reactive.server.WebTestClient;
 
-@SpringBootTest
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class AccountApplicationTests {
 
+    @Autowired
+    private WebTestClient webTestClient;
     @Test
-    void contextLoads() {
+    void listarAccount() {
+        this.webTestClient
+                .get()
+                .uri("/afiliado")
+                .exchange()
+                .expectStatus()
+                .is2xxSuccessful()
+                .expectHeader()
+                .contentType(MediaType.APPLICATION_JSON)
+                .expectBody()
+                .jsonPath("$.length()").isEqualTo(5);
     }
-
 }

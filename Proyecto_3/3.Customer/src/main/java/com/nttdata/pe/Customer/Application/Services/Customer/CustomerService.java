@@ -31,7 +31,20 @@ public class CustomerService implements ICustomerService {
 
     @Override
     public Mono<Customer> findById(Long id) {
-        logger.info("Cliente encontrado con dni_ruc: " + customerRepository.findById(id));
+
+        customerRepository.findById(id).flatMap(x->{
+            if(x.getRuc_dni() != null){
+                logger.info("Cliente encontrado con dni_ruc: " + customerRepository.findById(id));
+                return Mono.just(x);
+            }
+            else {
+                logger.info("Cliente no encontrado: ");
+                return  Mono.justOrEmpty(x);
+            }
+        });
+
+
+
         return customerRepository.findById(id);
     }
 
